@@ -1,0 +1,22 @@
+{
+  "name": "mongodbstreamtocsv",
+  "version": "1.0.0",
+  "description": "process big mongodb data to csv",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "mock": "node mock.js"
+
+  },
+  "keywords": [
+    "mongodb",
+    "stream",
+    "csv"
+  ],
+  "author": "gogogo1024",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^4.5.0",
+    "papaparse": "^5.3.2"
+  }
+}
