@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
         "mongodbstream",
-        "papaparse"
+        "papaparse",
+        "unparse",
+        "writestream"
     ]
 }

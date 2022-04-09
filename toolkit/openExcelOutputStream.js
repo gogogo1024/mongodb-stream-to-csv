@@ -19,7 +19,7 @@ function openCsvOutputStream(outputFilePath) {
             quoteChar: '"',
             escapeChar: '"',
             delimiter: ",",
-            header: firstOutput,
+            header: true,
             newline: "\r\n",
             skipEmptyLines: false, //other option is 'greedy', meaning skip delimiters, quotes, and whitespace.
             columns: null //or array of strings
